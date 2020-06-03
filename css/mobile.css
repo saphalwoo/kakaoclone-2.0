@@ -1,0 +1,17 @@
+.bigscreen {
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top:0px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: NONE;
+}
+
+@media screen and (min-width:1500px){
+    .bigscreen{
+        display: block;
+    }
+}

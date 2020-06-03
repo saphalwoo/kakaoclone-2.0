@@ -1,0 +1,20 @@
+.settings{
+    border-top: 1px solid grey;
+
+}
+.settings__setting{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.settings__sections{
+    padding: 30px 0px;
+}
+.settings__sections i {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.settings__setting .setting__title{
+    font-size: 15px;
+}
